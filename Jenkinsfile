@@ -26,12 +26,12 @@ pipeline {
         }
         stage('MVN COMPILE') {
             steps {
-                ......................
+                ""
             }
         }
         stage('MVN SONARQUBE') {
             steps {
-                ......................
+                ""
             }
         }
     }
