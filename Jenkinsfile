@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Hello') {
       steps {
-        echo "Hello, World!"
+        echo 'Hello, World!'
       }
     }
     stage('Test Maven') {
@@ -14,8 +14,8 @@ pipeline {
     }
     stage('Checkout Git') {
       steps {
-        echo "Pulling from git ...";
-          git branch: "main",
+        echo 'Pulling from git ...';
+          git branch: 'main',
           url: "https://github.com/khalilDimassi/TestDriveFreeStyle";
       }
     }
