@@ -19,5 +19,20 @@ pipeline {
                     url: "https://github.com/khalilDimassi/TestDriveFreeStyle";
             }
         }
+        stage('MVN CLEAN') {
+            steps {
+                sh "................."
+            }
+        }
+        stage('MVN COMPILE') {
+            steps {
+                ......................
+            }
+        }
+        stage('MVN SONARQUBE') {
+            steps {
+                ......................
+            }
+        }
     }
 }
